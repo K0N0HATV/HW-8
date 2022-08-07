@@ -11,17 +11,363 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <div>
-            <svg>
-                <use xlink:href="./svg/Logo.svg"/>
-            </svg>
+    <section class="bk-img">
+        <header>
+            <nav class="navbar mb-md-3 py-3 navbar-expand-lg pb-lg-4">
+                <div class="container ">
+                    <a class="navbar-brand" href="#"><svg width="128px" height="32px">
+                            <use href="./svg/Logo.svg#logo" />
+                        </svg></a>
+                    <div class="d-flex ms-auto">
+                        <a class="navbar-brand" href="#">
+                            <img class="d-none d-md-block d-lg-none" src="./svg/google-app.svg" alt="">
+                        </a>
+                        <a class="navbar-brand" href="#"><svg class="d-none d-md-block d-lg-none" width="135px"
+                                height="40px">
+                                <use href="./svg/apple.svg#apple" />
+                            </svg></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Careers
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex ms-auto align-items-center gap-2">
+                            <a class="navbar-bran" href="#"><img src="./svg/google-app.svg" alt=""></a>
+                            <a class="navbar-brand" href="#"><svg width="135px" height="40px">
+                                    <use href="./svg/apple.svg#apple" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="start">
+            <div class="container mt-5 pb-lg-5">
+                <div class="row">
+                    <div class="col-lg-6 pt-lg-5 pb-2">
+                        <h1 class="col-12 col-lg-12 mb-3 pt-md-3 pt-lg-5">The easiest way to manage projects</h1>
+                        <p class="col-12 col-lg-12">From the small stuff to the big picture, organizes the work so teams
+                            know
+                            what to do,
+                            why it matters, and
+                            how
+                            to get it done.</p>
+                        <div class="row pt-3">
+                            <button class="col-5 c-fiol col-md-3">Get Started</button>
+                            <button class="col-6 btn-player col-md-3 d-flex align-items-center ms-3 col-lg-5"><svg
+                                    class="me-2" width="25px" height="25px">
+                                    <use href="./svg/icon-player.svg#player" />
+                                </svg>Watch Video</button>
+                        </div>
+                    </div>
+                    <img class="col-lg-3 offset-lg-2 mb-lg-5 mt-5 pt-4 mt-lg-0 pt-lg-0" src="./img/Mobile.png" alt="">
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="icon mt-5">
+        <div class="container">
+            <div class="row align-items-center py-4 border border-start-0 border-end-0 gap-md-4 gap-lg-0">
+                <svg class="offset-2 col-4 col-md-2 offset-md-1 offset-lg-1 col-lg-1" width="91px" height="28px">
+                    <use class="" href="./svg/airbnb.svg#airbnb" />
+                </svg>
+                <svg class="offset-1 col-4 col-md-2 offset-md-0 col-lg-1 offset-lg-1" width="87px" height="24px">
+                    <use class="" href="./svg/hubspot.svg#hubspot" />
+                </svg>
+                <svg class="col-4 offset-1 my-33 my-md-0 me-2 col-md-2 offset-md-0 me-md-0 col-lg-1 offset-lg-1"
+                    width="84px" height="28px">
+                    <use class="" href="./svg/google.svg#google" />
+                </svg>
+                <svg class="col-5 offset-1 col-md-3 offset-md-0 col-lg-2 offset-lg-1" width="122px" height="26px">
+                    <use class="" href="./svg/microsoft.svg#microsoft" />
+                </svg>
+                <svg class="col-4 offset-1 offset-md-3 me-3 me-md-0 col-md-3 col-lg-2 offset-lg-0" width="112px"
+                    height="26px">
+                    <use class="" href="./svg/walmart.svg#walmart" />
+                </svg>
+                <svg class="col-4 offset-2 col-md-3 offset-md-0 col-lg-1 offset-lg-0" width="80px" height="24px">
+                    <use class="" href="./svg/fedex.svg#fedex" />
+                </svg>
+            </div>
         </div>
-    </header>
+    </section>
+    <section class="features mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="row text-center">
+                    <h1 class="fs-36 m-lg-auto col-lg-5">Tailor-made features</h1>
+                    <p class="fs-18 m-lg-auto col-lg-8 pb-md-4">Lorem ipsum is common placeholder text used to
+                        demonstrate the graphic elements of
+                        a document or
+                        visual presentation.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row text-center justify-content-center mt-5 col-md-6 col-lg-4">
+                    <svg class="w-32" width="32px" height="32px">
+                        <use href="./svg/icon-1.svg#icon-1" />
+                    </svg>
+                    <h2 class="mt-4 fs-30">Robust workflow</h2>
+                    <p class="col-10 pb-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh
+                        tristique ipsum.</p>
+                </div>
+                <div class="row text-center justify-content-center mt-5 col-md-6 col-lg-4">
+                    <svg class="w-32" width="32px" height="32px">
+                        <use href="./svg/icon-2.svg#icon-2" />
+                    </svg>
+                    <h2 class="mt-4 fs-30">Flexibility</h2>
+                    <p class="col-10 pb-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh
+                        tristique ipsum.</p>
+                </div>
+                <div class="row text-center justify-content-center mt-5 col-md-6 col-lg-4">
+                    <svg class="w-32" width="32px" height="32px">
+                        <use href="./svg/icon-3.svg#icon-3" />
+                    </svg>
+                    <h2 class="mt-4 fs-30">User friendly</h2>
+                    <p class="col-10 pb-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh
+                        tristique ipsum.</p>
+                </div>
+                <div class="row text-center justify-content-center mt-5 col-md-6 col-lg-4">
+                    <svg class="w-32" width="32px" height="32px">
+                        <use href="./svg/icon-4.svg#icon-4" />
+                    </svg>
+                    <h2 class="mt-4 fs-30">Multiple layouts</h2>
+                    <p class="col-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique
+                        ipsum.</p>
+                </div>
+                <div class="row text-center justify-content-center mt-5 col-md-6 col-lg-4">
+                    <svg class="w-32" width="32px" height="32px">
+                        <use href="./svg/icon-5.svg#icon-5" />
+                    </svg>
+                    <h2 class="mt-4 fs-30">Better components</h2>
+                    <p class="col-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique
+                        ipsum.</p>
+                </div>
+                <div class="row text-center justify-content-center mt-5 col-md-6 col-lg-4">
+                    <svg class="w-32" width="32px" height="32px">
+                        <use href="./svg/icon-6.svg#icon-6" />
+                    </svg>
+                    <h2 class="mt-4 fs-30">Well organised</h2>
+                    <p class="col-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique
+                        ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 story">
+        <div class="container">
+            <div class="row gap-lg-4">
+                <div class="col-12 col-lg-6">
+                    <div class="offset-lg-2 col-lg-10 mt-5 bg-img">
+                        <h3 class="fs-30 pt-4">Real Stories from Real Customers</h3>
+                        <p class="pb-2 pb-md-4 pb-lg-5 fs-16">Get inspired by these stories.</p>
+                    </div>
+                    <div class="offset-lg-4 col-lg-8 bg-white p-45 rounded-3 mt-3 mb-4">
+                        <svg class="col-12" width="111px" height="32px">
+                            <use href="./svg/airbnb.svg#airbnb" />
+                        </svg>
+                        <ul class="mt-4">
+                            <li>
+                                <p class="ps-3">I used landify and created a landing page for my startup within a week.
+                                    The Landify UI Kit is
+                                    simple and highly intuitive, so anyone can use it.</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3 class="ps-3 mb-0 lh-28">Jane Cooper</h3>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="ps-3 fs-14">CEO, Airbnb</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="col p-lg-45 mt-2 d-none d-lg-block"></div>
+                    <div class="col-lg-10 bg-white p-45 rounded-3 mb-4 mb-lg-45">
+                        <svg class="col-12" width="112px" height="32px">
+                            <use href="./svg/hubspot.svg#hubspot" />
+                        </svg>
+                        <ul class="mt-4">
+                            <li>
+                                <p class="ps-3">To quickly start my startup landing page design, I was looking for a
+                                    landing page UI Kit. Landify is one of the best landing page UI kit I have come
+                                    across. It’s so flexible, well organised and easily editable.</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3 class="ps-3 mb-0 lh-28">Floyd Miles</h3>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="ps-3 fs-14">Vice President, GoPro</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-8 bg-white p-45 rounded-3 mb-lg-5 mb-5">
+                        <svg class="col-12" width="112px" height="32px">
+                            <use href="./svg/strapi.svg#strapi" />
+                        </svg>
+                        <ul class="mt-4">
+                            <li>
+                                <p class="ps-3">Landify saved our time in designing my company page.</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h3 class="ps-3 mb-0 lh-28">Kristin Watson</h3>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="ps-3 fs-14">Co-Founder, Strapi</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="year mt-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="row col-lg-4">
+                    <h3 class="pt-5 fs-30 mb-lg-0">Our 18 years of achievements</h3>
+                    <p class="fs-16 col-11">With our super powers we have reached this</p>
+                </div>
+                <div class="row mt-5 gap-4 col-lg-6 offset-lg-2">
+                    <div class="row align-items-center gap-3 col-md-5">
+                        <svg class="w-32" width="32px" height="32px">
+                            <use href="./svg/icon-1.svg#icon-1" />
+                        </svg>
+                        <div class="row col-6">
+                            <h2 class="mb-0">10,000+</h2>
+                            <p class="mb-0 fs-14">Downloads per day</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gap-3 col-md-5 offset-md-1">
+                        <svg class="w-32" width="32px" height="32px">
+                            <use href="./svg/icon-4.svg#icon-4" />
+                        </svg>
+                        <div class="row col-6">
+                            <h2 class="mb-0">2 Million</h2>
+                            <p class="mb-0 fs-14">Users</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gap-3 col-md-5">
+                        <svg class="w-32" width="32px" height="32px">
+                            <use href="./svg/icon-5.svg#icon-5" />
+                        </svg>
+                        <div class="row col-6">
+                            <h2 class="mb-0">500+</h2>
+                            <p class="mb-0 fs-14">Clients</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center gap-3 col-md-5 offset-md-1">
+                        <svg class="w-32" width="32px" height="32px">
+                            <use href="./svg/icon-7.svg#icon-7" />
+                        </svg>
+                        <div class="row col-6">
+                            <h2 class="mb-0">140</h2>
+                            <p class="mb-0 fs-14">Countries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="icons pt-5 mt-5">
+        <div class="container ">
+            <div class="row border-top">
+                <div class="row mt-md-4 col-md-6 col-lg-5">
+                    <h2 class="col-lg-10 pt-4 pt-md-0 pt-lg-2">Easy integrations with 170+ tools</h2>
+                    <p class="col-lg-11">Connect Landify with your favourite tools that you use daily and keep things on
+                        track.</p>
+                </div>
+                <div class="row position-relative w-335 align-items-md-start mt-4 mt-md-0 mx-auto">
+                    <img class="circle" src="./img/circle.png" alt="">
+                    <img class="position-absolute icon-1" src="/img/1.png" alt="">
+                    <img class="position-absolute icon-2" src="/img/2.png" alt="">
+                    <img class="position-absolute icon-3" src="/img/3.png" alt="">
+                    <img class="position-absolute icon-4" src="/img/4.png" alt="">
+                    <img class="position-absolute icon-5" src="/img/5.png" alt="">
+                    <img class="position-absolute icon-6" src="/img/6.png" alt="">
+                    <img class="position-absolute icon-7" src="/img/7.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="from mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="pt-5 col-lg-6 pb-lg-5 mb-lg-5">
+                    <h2 class="">Manage all projects from your mobile</h2>
+                    <p class="mb-5 col-lg-11">Download the app to manage your projects, keep track of the progress and
+                        complete tasks
+                        without
+                        procastinating. Stay on track and complete on time!</p>
+                    <h4>Get the App</h4>
+                    <img class="google-app" src="./svg/google-app.svg" alt="">
+                    <svg class="ms-2 col-6" width="135px" height="40px">
+                        <use href="./svg/apple.svg#apple" />
+                    </svg>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="row flex-nowrap flex-column flex-md-wrap flex-md-row flex-lg-nowrap">
+                        <img class="phone-1 mx-auto mt-4 col-12 mb-md-5 mt-md-5 mt-lg-0 mx-lg-0 pb-lg-5 mb-lg-5"
+                            src="./img/Phone Mockup 1.png" alt="">
+                        <img class="phone-2 mx-auto col-12 mt-md-auto mx-lg-0" src="./img/Phone Mockup 2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row pt-md-4">
+                <div class="row mt-5 col-md-8 col-lg-5">
+                    <svg width="32px" height="32px">
+                        <use href="./svg/Logomark.svg#logomark" />
+                    </svg>
+                    <a class="mt-4 col-5 col-md-4 col-lg-3" href="#">Download Now</a>
+                    <a class="col-6 mt-4 col-md-8 col-lg-9" href="#">License</a>
+                    <a class="col-2 mt-2 pt-1 col-md-2" href="#">About</a>
+                    <a class="col-3 ms-3 ms-md-0 mt-2 pt-1 col-md-2" href="#">Features</a>
+                    <a class="col-3 ms-1 mt-2 ms-md-3 pt-1 col-md-2" href="#">Pricing</a>
+                    <a class="col-3 mt-2 pt-1 col-md-2" href="#">News</a>
+                    <a class="col-2 mt-2 pt-1 col-md-1" href="#">Help</a>
+                    <a class="col-3 mt-2 pt-1 col-md-2 ms-md-3" href="#">Contact</a>
+                    <p class="mt-4 mb-0 mb-md-5">© 2021 Landify UI Kit. All rights reserved</p>
+                </div>
+                <div class="row mt-3 pt-3 col-md-3 offset-md-1 ps-md-4 offset-lg-4 col-lg-3">
+                    <a class="mb-3 mb-md-0 col-8" href="#">Get the App</a>
+                    <img class="google-app mb-3" src="./svg/google-app.svg" alt="">
+                    <svg class="mb-5" width="135px" height="40px">
+                        <use href="./svg/apple.svg#apple" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

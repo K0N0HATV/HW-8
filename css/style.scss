@@ -1,0 +1,559 @@
+.plr-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container {
+  --bs-gutter-x: 2.5rem !important;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.story {
+  background-color: #D5FAFC;
+
+  li {
+    list-style-type: none;
+
+    &::marker {
+      content: "❝";
+      color: #1DB5BE;
+      padding-right: 16px;
+    }
+  }
+}
+
+.bg-img {
+  background-image: url(../img/back.png);
+  background-repeat: no-repeat;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+  line-height: 28px !important;
+}
+
+.lh-28 {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 28px !important;
+}
+
+.fs-14 {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #6B7280;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.fs-30 {
+  font-size: 30px !important;
+  line-height: 40px !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+
+  @media screen and (min-width: 992px) {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+}
+
+.p {
+  &-45 {
+    padding: 2rem !important;
+  }
+
+  &l-45 {
+    padding-left: 2rem !important;
+  }
+
+  &r-45 {
+    padding-right: 2rem !important;
+  }
+
+  &t-45 {
+    padding-top: 2rem !important;
+  }
+
+  &b-45 {
+    padding-bottom: 2rem !important;
+  }
+}
+
+.m {
+  &-45 {
+    margin: 2rem !important;
+  }
+
+  &l-45 {
+    margin-left: 2rem !important;
+  }
+
+  &r-45 {
+    margin-right: 2rem !important;
+  }
+
+  &t-45 {
+    margin-top: 2rem !important;
+  }
+
+  &b-45 {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .p {
+    &-lg-45 {
+      padding: 2rem !important;
+    }
+
+    &l-lg-45 {
+      padding-left: 2rem !important;
+    }
+
+    &r-lg-45 {
+      padding-right: 2rem !important;
+    }
+
+    &t-lg-45 {
+      padding-top: 2rem !important;
+    }
+
+    &b-lg-45 {
+      padding-bottom: 2rem !important;
+    }
+  }
+
+  .m {
+    &-lg-45 {
+      margin: 2rem !important;
+    }
+
+    &l-lg-45 {
+      margin-left: 2rem !important;
+    }
+
+    &r-lg-45 {
+      margin-right: 2rem !important;
+    }
+
+    &t-lg-45 {
+      margin-top: 2rem !important;
+    }
+
+    &b-lg-45 {
+      margin-bottom: 2rem !important;
+    }
+  }
+}
+
+
+
+
+h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
+
+.fs-36 {
+  font-size: 36px !important;
+  line-height: 45px !important;
+
+  @media screen and (min-width: 992px) {
+    font-size: 48px !important;
+    line-height: 60px !important;
+  }
+}
+
+.w-32 {
+  width: 32px !important;
+}
+
+.my-33 {
+  margin-top: 33px !important;
+  margin-bottom: 33px;
+}
+
+.m {
+  &t-64 {
+    margin-top: 64px;
+  }
+
+  &e-64 {
+    margin-right: 64px;
+  }
+
+  &b-64 {
+    margin-bottom: 64px;
+  }
+
+  &s-64 {
+    margin-left: 64px;
+  }
+}
+
+.bk-img {
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+
+  @media screen and (min-width: 768px) {
+    background-position: top center;
+  }
+
+  @media screen and (min-width: 992px) {
+    background-size: contain;
+  }
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 36px !important;
+  line-height: 45px !important;
+  letter-spacing: -0.025em;
+  font-feature-settings: 'liga'off;
+  color: #111827;
+
+  @media screen and (min-width: 768px) {
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 60px !important;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-weight: 700 !important;
+    font-size: 60px !important;
+    line-height: 72px !important;
+  }
+}
+
+.start {
+  .container {
+
+
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      font-feature-settings: 'liga'off;
+      color: #374151;
+    }
+
+    .c-fiol {
+      background: #7C3AED;
+      border-radius: 8px;
+      padding: 16px 24px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      font-feature-settings: 'liga'off;
+      color: #FFFFFF;
+      border: 0;
+      width: 138px;
+    }
+
+    .btn-player {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      font-feature-settings: 'liga'off;
+      color: #7C3AED;
+      border: 0;
+      background-color: #FFFFFF;
+    }
+
+    img {
+      width: 320px;
+
+      @media screen and (min-width: 0) and (max-width: 992px) {
+        margin: auto;
+      }
+    }
+  }
+}
+
+.features {
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.year {
+  h3 {
+    @media screen and (min-width: 992px) {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px !important;
+      line-height: 60px !important;
+    }
+  }
+}
+
+.icons {
+  h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    line-height: 40px !important;
+
+    @media screen and (min-width: 768px) {
+      font-size: 36px !important;
+      line-height: 45px !important;
+    }
+
+    @media screen and (min-width: 992px) {
+      font-size: 48px !important;
+      line-height: 60px !important;
+    }
+  }
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+
+    @media screen and (min-width: 768px) {
+      font-weight: 400;
+      font-size: 18px !important;
+      line-height: 28px !important;
+    }
+
+    @media screen and (min-width: 992px) {
+      font-size: 18px !important;
+      line-height: 28px !important;
+    }
+  }
+}
+
+.icons {
+  .icon {
+    &-1 {
+      width: 40px;
+      top: 25px;
+      left: 29px;
+
+      @media screen and (min-width: 992px) {
+        width: 64px;
+        top: 40px;
+        left: 46px;
+      }
+    }
+
+    &-2 {
+      width: 40px;
+      top: 25px;
+      left: 108px;
+
+      @media screen and (min-width: 992px) {
+        width: 64px;
+        top: 40px;
+        left: 174px;
+      }
+    }
+
+    &-3 {
+      width: 40px;
+      top: 25px;
+      right: 107px;
+
+      @media screen and (min-width: 992px) {
+        width: 64px;
+        top: 40px;
+        right: 174px;
+      }
+    }
+
+    &-4 {
+      width: 40px;
+      top: 25px;
+      right: 28px;
+
+      @media screen and (min-width: 992px) {
+        width: 64px;
+        top: 40px;
+        right: 46px;
+      }
+    }
+
+    &-5 {
+      width: 40px;
+      top: 105px;
+      left: 69px;
+
+      @media screen and (min-width: 992px) {
+        width: 64px;
+        top: 168px;
+        left: 110px;
+      }
+    }
+
+    &-6 {
+      width: 40px;
+      top: 105px;
+      left: 148px;
+
+      @media screen and (min-width: 992px) {
+        width: 64px;
+        top: 168px;
+        left: 238px;
+      }
+    }
+
+    &-7 {
+      width: 40px;
+      top: 105px;
+      right: 67px;
+
+      @media screen and (min-width: 992px) {
+        width: 64px;
+        top: 168px;
+        right: 110px;
+      }
+    }
+  }
+
+  .circle {
+    width: 335px;
+
+    @media screen and (min-width: 768px) {
+      width: 328px;
+    }
+
+    @media screen and (min-width: 992px) {
+      width: 540px !important;
+    }
+  }
+
+  .w-335 {
+    width: 335px;
+
+    @media screen and (min-width: 768px) {
+      width: 328px;
+    }
+
+    @media screen and (min-width: 992px) {
+      width: 540px !important;
+    }
+  }
+}
+
+.from {
+  background-color: #1DB5BE;
+
+  .container {
+    .row {
+      h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700 !important;
+        font-size: 30px !important;
+        line-height: 40px !important;
+        color: #111827;
+
+        @media screen and (min-width: 768px) {
+          font-weight: 700;
+          font-size: 36px !important;
+          line-height: 45px !important;
+        }
+
+        @media screen and (min-width: 992px) {
+          font-weight: 700;
+          font-size: 48px !important;
+          line-height: 60px !important;
+        }
+      }
+
+      p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #111827;
+
+        @media screen and (min-width: 768px) {
+          font-weight: 400;
+          font-size: 18px !important;
+          line-height: 28px !important;
+        }
+      }
+
+      h4 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #111827;
+      }
+
+      .phone-1 {
+        width: 232px;
+      }
+
+      .phone-2 {
+        width: 232px;
+      }
+    }
+  }
+}
+
+.google-app {
+  width: 135px !important;
+}
+
+.footer {
+  background: #000000;
+  color: #FFFFFF !important;
+
+  a {
+    color: #FFFFFF !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1D5DB;
+  }
+}
