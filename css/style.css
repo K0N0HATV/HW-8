@@ -478,10 +478,12 @@ h1 {
   color: #111827;
 }
 .from .container .row .phone-1 {
-  width: 232px;
+  width: 100%;
+  max-width: 232px;
 }
 .from .container .row .phone-2 {
-  width: 232px;
+  width: 100%;
+  max-width: 232px;
 }
 
 .google-app {
